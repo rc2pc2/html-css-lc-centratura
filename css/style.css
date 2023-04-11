@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+div.city{
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    height: 50vh;
+    margin-bottom: 1rem;
+    background-position: center;
+    background-size: cover;
+}
+
+div.city h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+    transform: translate(-50%, -50%);
+}
+
+div.city:hover{
+    height: 100vh;
+}
+
+div.city-rome{
+    background-image: url('https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg');
+}
+
+div.city-naples{
+    background-image: url('https://www.ilmioviaggioa.com/wp-content/uploads/2020/06/Naples-Sunrise1-1.jpg');
+}
+
+div.city-milan{
+    background-image: url('https://images.prismic.io/bounce/bfac2840-8f2a-46c4-b4a8-4df14fb0d111_cristina-gottardi--YzMZYqwoH4-unsplash.jpg?auto=compress,format');
+} */
