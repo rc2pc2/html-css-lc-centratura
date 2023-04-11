@@ -4,37 +4,76 @@
     box-sizing: border-box;
 }
 
-/*
-div.city{
-    position: relative;
-    color: white;
-    text-transform: uppercase;
-    height: 50vh;
-    margin-bottom: 1rem;
-    background-position: center;
-    background-size: cover;
+html{
+    scroll-behavior: smooth;
 }
 
-div.city h1{
+body{
+    /* font-family: sans-serif; */
+    font-family: 'Rubik Mono One', sans-serif;
+
+}
+
+nav ul{
+    list-style-type: none;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+
+    right: 0;
+    top: 2.5%;
+}
+
+nav ul li{
+    margin-right: 3rem;
+    border-radius: 50%;
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    padding: .33rem;
+    text-align: center;
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    position: relative;
+
+    height: 100vh;
+    width: 100vw;
+
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.75rem;
+}
+
+section#red-shoes{
+    background-color: red;
+    color: yellow;
+}
+
+section#green-shoes{
+    background-color: green;
+    color: yellow;
+}
+
+section#yellow-shoes{
+    background-color: yellow;
+    color: green;
+}
+
+div.centered-item{
     position: absolute;
+
     top: 50%;
     left: 50%;
-    background-color: red;
     transform: translate(-50%, -50%);
 }
 
-div.city:hover{
-    height: 100vh;
-}
-
-div.city-rome{
-    background-image: url('https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg');
-}
-
-div.city-naples{
-    background-image: url('https://www.ilmioviaggioa.com/wp-content/uploads/2020/06/Naples-Sunrise1-1.jpg');
-}
-
-div.city-milan{
-    background-image: url('https://images.prismic.io/bounce/bfac2840-8f2a-46c4-b4a8-4df14fb0d111_cristina-gottardi--YzMZYqwoH4-unsplash.jpg?auto=compress,format');
-} */
